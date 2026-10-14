@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSU Coffee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4a2c2a;
+            margin-bottom: 5px;
+        }
+        .student-info {
+            color: #6c757d;
+            font-size: 0.95em;
+            margin-bottom: 20px;
+        }
+        .version-tag {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-bottom: 25px;
+        }
+        .menu-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.1em;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .price {
+            font-weight: bold;
+            color: #d9534f;
+        }
+        .promo-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .promo-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ร้าน KSU Coffee</h1>
+        <div class="student-info">รหัสนักศึกษา: 671540005025-5</div>
+        <div class="version-tag">Menu v1</div>
+
+        <ul class="menu-list">
+            <li class="menu-item"><span>โกโก้</span> <span class="price">50 บาท</span></li>
+            <li class="menu-item"><span>เอสเพรสโซ่</span> <span class="price">55 บาท</span></li>
+            <li class="menu-item"><span>ชาไทย</span> <span class="price">60 บาท</span></li>
+            
+        </ul>
+
+        <div>
+            <a href="http://localhost:8081" class="promo-btn" target="_blank">ดูโปรโมชั่น</a>
+        </div>
+    </div>
+</body>
+</html>
